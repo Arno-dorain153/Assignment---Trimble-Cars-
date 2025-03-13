@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.trimblecars.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-13T11:38:53" hostname="ARAVINDS-ASUS" time="0.551">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.trimblecars.demo.DemoApplicationTests" time="0.551"/>
+  <system-out><![CDATA[17:08:41.328 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.trimblecars.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:08:41.534 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.trimblecars.demo.DemoApplication for test class com.trimblecars.demo.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-03-13T17:08:43.165+05:30  INFO 12400 --- [demo] [    Test worker] c.trimblecars.demo.DemoApplicationTests  : Starting DemoApplicationTests using Java 21.0.5 with PID 12400 (started by Arno in C:\Users\rango\OneDrive\Desktop\demo\demo)
+2025-03-13T17:08:43.181+05:30 DEBUG 12400 --- [demo] [    Test worker] c.trimblecars.demo.DemoApplicationTests  : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-13T17:08:43.192+05:30  INFO 12400 --- [demo] [    Test worker] c.trimblecars.demo.DemoApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T17:08:44.334+05:30  INFO 12400 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-13T17:08:44.409+05:30  INFO 12400 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2025-03-13T17:08:45.202+05:30  INFO 12400 --- [demo] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d480acdf-28f9-3232-8897-5ca3bae1c4f0
+2025-03-13T17:08:46.011+05:30  INFO 12400 --- [demo] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-13T17:08:46.122+05:30  INFO 12400 --- [demo] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-13T17:08:46.250+05:30  INFO 12400 --- [demo] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-13T17:08:47.008+05:30  INFO 12400 --- [demo] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-13T17:08:47.101+05:30  INFO 12400 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T17:08:47.572+05:30  INFO 12400 --- [demo] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46591e98
+2025-03-13T17:08:47.572+05:30  INFO 12400 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T17:08:47.683+05:30  WARN 12400 --- [demo] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-13T17:08:47.698+05:30  WARN 12400 --- [demo] [    Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-13T17:08:47.730+05:30  INFO 12400 --- [demo] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-13T17:08:49.645+05:30  INFO 12400 --- [demo] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-13T17:08:49.820+05:30  INFO 12400 --- [demo] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-13T17:08:50.129+05:30  WARN 12400 --- [demo] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-13T17:08:51.884+05:30  INFO 12400 --- [demo] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T17:08:53.009+05:30  INFO 12400 --- [demo] [    Test worker] c.trimblecars.demo.DemoApplicationTests  : Started DemoApplicationTests in 10.999 seconds (process running for 13.209)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\rango\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
